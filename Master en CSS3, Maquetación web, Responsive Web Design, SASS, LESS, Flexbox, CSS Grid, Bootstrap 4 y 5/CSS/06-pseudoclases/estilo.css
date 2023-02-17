@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ ul li{
+    font-size: 20px;
+}
+/* Seudo clase 
+( :first-child = Seleciona la primera clase hija)
+ */
+ul li:first-child{
+    color: aqua;
+    font-weight: bold ;
+}
+/*
+:nth-child(2) 
+=> seleciona los elemento de la lista colocando el valor
+*/
+ul li:nth-child(2){
+    color: orange;
+    font-weight: bold ;
+}
+/*
+:last-child => Seleciona el ultimo elemento
+*/
+ul li:last-child{
+    color: gray;
+    font-weight: bold ;
+}
+#mi-elance{
+    font-size: 20px;
+    color: rgb(154, 154, 31);
+}
+#mi-elance:link{
+    font-size: 20px;
+    color: red;
+}
+#mi-elance:visited{
+    font-size: 20px;
+    color: orange;
+}
+#mi-elance:hover{
+    font-size: 20px;
+    color: blue;
+}
+#mi-elance:active{
+   
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+input[type="text"]{
+    color: green;
+    margin-top: 20px ;
+    padding: 10px;
+}
+input[type="text"]:focus{
+    border: 4px solid red;
+    
+}

@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#layout{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    /* Ahorra liena */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 700px;
+    align-items: cen;
+
+    border: 3px solid black;
+    padding: 5px;
+}
+.caja{
+   
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+.red{
+    align-self: flex-start;
+    background: red;
+}
+.green{
+    /* margin-top: 10%; */
+    align-self: center;
+    background: green;
+}
+.blue{
+    align-self: center;
+    background: blue;
+}
+.orange{
+    /* order: -1; */
+    align-self: flex-end;
+    background: orange;
+}
+
+
+
